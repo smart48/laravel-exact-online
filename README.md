@@ -1,4 +1,4 @@
-06/08/2020: PendoNL archived [this package](https://github.com/PendoNL/laravel-exact-online) as it was originally intended to be used inside a project and scratch our own itch.  Smart48 decided to revive it.
+06/08/2020: Smart48 archived [this package](https://github.com/Smart48/laravel-exact-online) as it was originally intended to be used inside a project and scratch our own itch.  Smart48 decided to revive it.
 
 # Laravel Exact Online
 This package is a Laravel wrapper around the Exact Online PHP API by Picqer 
@@ -19,14 +19,14 @@ what functions you may use.
 First add the dev-master version of this package to your composer.json
 
 ```
-"pendonl/laravel-exact-online": "dev-master"
+"smart48/laravel-exact-online": "dev-master"
 ```
 
 Then run `composer update` and add the Service Provider to config/app.php (For L5.5 and up Auto-Discovery is enabled)
 
 ```
 ...
-PendoNL\LaravelExactOnline\Providers\LaravelExactOnlineServiceProvider::class,
+Smart48\LaravelExactOnline\Providers\LaravelExactOnlineServiceProvider::class,
 ...
 ```
 
@@ -34,14 +34,14 @@ In the same file, add the Facade
 
 ```
 ...
-'ExactOnline' => PendoNL\LaravelExactOnline\LaravelExactOnlineFacade::class,
+'ExactOnline' => Smart48\LaravelExactOnline\LaravelExactOnlineFacade::class,
 ...
 ```
 
 Followed by this, publish the resources (views, config, etc.)
 
 ```
-php artisan vendor:publish --provider="PendoNL\LaravelExactOnline\Providers\LaravelExactOnlineServiceProvider"
+php artisan vendor:publish --provider="Smart48\LaravelExactOnline\Providers\LaravelExactOnlineServiceProvider"
 ```
 
 While developing this package, you might want to use the `--force` flag on this command to overwrite previous files.

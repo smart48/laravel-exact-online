@@ -1,6 +1,6 @@
 <?php
 
-#use PendoNL\LaravelExactOnline\LaravelExactOnline as LaravelExactOnline;
+#use Smart48\LaravelExactOnline\LaravelExactOnline as LaravelExactOnline;
 
 class LaravelExactOnlineConnectionTest extends \PHPUnit\Framework\TestCase
 {

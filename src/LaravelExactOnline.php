@@ -1,6 +1,6 @@
 <?php
 
-namespace PendoNL\LaravelExactOnline;
+namespace Smart48\LaravelExactOnline;
 
 use File;
 use Illuminate\Support\Facades\Auth;

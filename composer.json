@@ -1,5 +1,5 @@
 {
-    "name": "pendonl/laravel-exact-online",
+    "name": "Smart48/laravel-exact-online",
     "description": "Laravel Facade wrapper for Exact Online PHP API",
     "require": {
         "picqer/exact-php-client": "^3.1"
@@ -16,22 +16,22 @@
     ],
     "autoload": {
         "psr-4": {
-            "PendoNL\\LaravelExactOnline\\": "src/"
+            "Smart48\\LaravelExactOnline\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PendoNL\\LaravelExactOnline\\Test\\": "tests"
+            "Smart48\\LaravelExactOnline\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "PendoNL\\LaravelExactOnline\\Providers\\LaravelExactOnlineServiceProvider"
+                "Smart48\\LaravelExactOnline\\Providers\\LaravelExactOnlineServiceProvider"
             ],
             "aliases": {
-                "ExactOnline": "PendoNL\\LaravelExactOnline\\LaravelExactOnlineFacade"
+                "ExactOnline": "Smart48\\LaravelExactOnline\\LaravelExactOnlineFacade"
             }
         }
     }

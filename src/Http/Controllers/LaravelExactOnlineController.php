@@ -1,9 +1,9 @@
 <?php
 
-namespace PendoNL\LaravelExactOnline\Http\Controllers;
+namespace Smart48\LaravelExactOnline\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use PendoNL\LaravelExactOnline\LaravelExactOnline;
+use Smart48\LaravelExactOnline\LaravelExactOnline;
 
 class LaravelExactOnlineController extends Controller
 {
