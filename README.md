@@ -1,4 +1,4 @@
-06/08/2020: Smart48 archived [this package](https://github.com/Smart48/laravel-exact-online) as it was originally intended to be used inside a project and scratch our own itch.  Smart48 decided to revive it.
+06/08/2020: PendoNL archived [this package](https://github.com/PendoNL/laravel-exact-online) as it was originally intended to be used inside a project and scratch our own itch.  Smart48 decided to revive it.
 
 # Laravel Exact Online
 This package is a Laravel wrapper around the Exact Online PHP API by Picqer 
